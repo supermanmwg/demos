@@ -2,6 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.demos">
 
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+
+    <!--接收系统开机广播权限-->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -40,6 +46,31 @@
 
         <activity android:name=".clock.ClockActivity"
             android:screenOrientation="portrait" />
+
+        <activity android:name=".lineandcircle.LineAndCircleActivity"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".tearimage.TearImageActivity"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".banneranimation.SnowActivity"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".headhaha.HeadMosaicActivity"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".customprogressbar.CustomProgressActivity"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".xfermodeview.ScratchActivity"
+            android:screenOrientation="portrait" />
+            <service android:name=".chatheadtest.ChatHeadService" />
+            <receiver android:name=".chatheadtest.BootReceiver">
+                <intent-filter>
+                    <!-- 系统启动完成后会调用 -->
+                    <action android:name="android.intent.action.BOOT_COMPLETED"></action>
+                </intent-filter>
+            </receiver>
     </application>
 
 </manifest>

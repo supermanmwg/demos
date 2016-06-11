@@ -2,4 +2,11 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="snowflake_width">100dp</dimen>
+    <dimen name="snowflake_height">100dp</dimen>
+
+    <dimen name="default_loading_text_size">30sp</dimen>
+    <dimen name="default_circle_radius_size">25dp</dimen>
+    <dimen name="default_stroke_width">5dp</dimen>
 </resources>
