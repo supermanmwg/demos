@@ -15,4 +15,18 @@
     <string name="coursera">Coursera</string>
     <string name="remote_control">远程控制</string>
     <string name="flying_snow">飘雪</string>
+
+    <string name="scratch_card">刮刮卡</string>
+    <string name="chat_head">桌面工具</string>
+    <string name="custom_progress_bar">自定义进度条</string>
+
+    <!--设置界面-->
+    <string name="tantan">探探</string>
+    <string name="message">消息</string>
+    <string name="anonymous">匿名暗恋表白</string>
+    <string name="setting">设置</string>
+    <string name="fresher_guide">新手引导</string>
+    <string name="recommend">推荐给好友</string>
+    <string name="edit">点击查看/编辑</string>
+    <string name="mwg">mwg</string>
 </resources>

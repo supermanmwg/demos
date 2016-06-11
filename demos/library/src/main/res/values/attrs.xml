@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SwipeCard">
+        <attr name="scale" format="float"/>
+        <attr name="static_rotation" format="float"/>
+        <attr name="dynamic_rotation" format="float" />
+        <attr name="interval" format="dimension"/>
+        <attr name="stack_size" format="integer" />
+        <attr name="animation_duration" format="integer" />
+    </declare-styleable>
+</resources>

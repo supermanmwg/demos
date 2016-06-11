@@ -3,4 +3,11 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="tantan">#FAEBD7</color>
+    <color name="message">#FA8072</color>
+    <color name="anonymous">#912CEE</color>
+    <color name="setting">#00F5FF</color>
+    <color name="fresh_guide">#FFD700</color>
+    <color name="recommend">#8B1A1A</color>
 </resources>

@@ -15,6 +15,31 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".guidepage.TantanActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".angryball.AngryBallActivity"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name=".alterpic.AlterNumActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".remote.RemoteActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".customrects.ChartActivity"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".multipletouch.MultipleTouchActivity"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".clock.ClockActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

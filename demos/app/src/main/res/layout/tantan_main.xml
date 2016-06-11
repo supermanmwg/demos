@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.demos.guidepage.customviews.HorizontalScrollView
+        android:id="@+id/parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/first_view" />
+
+        <com.demos.guidepage.customviews.ChildFollowView
+            android:id="@+id/middle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.demos.guidepage.customviews.ChildFollowView>
+
+        <com.demos.guidepage.customviews.ChildNotFollowView
+            android:id="@+id/last"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="100dp"
+                android:src="@drawable/pretty2" />
+        </com.demos.guidepage.customviews.ChildNotFollowView>
+
+    </com.demos.guidepage.customviews.HorizontalScrollView>
+</LinearLayout>
