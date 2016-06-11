@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">demos</string>
+    <string name="simulate_tantan">仿探探主界面</string>
+    <string name="angry_ball">愤怒的球</string>
+    <string name="alter_num">数字翻牌</string>
+
+    <string name="clock">自定义时钟</string>
+    <string name="mosaic">马赛克处理</string>
+    <string name="tear_image">撕图</string>
+
+    <string name="custom_fly_ball">自定义飞球</string>
+    <string name="bigger">放大</string>
+    <string name="custom_chart">自定义图表</string>
+
+    <string name="coursera">Coursera</string>
+    <string name="remote_control">远程控制</string>
+    <string name="flying_snow">飘雪</string>
+</resources>
